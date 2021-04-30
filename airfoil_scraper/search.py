@@ -9,7 +9,7 @@ import pandas as pd
 import numpy as np
 
 def FileSearch(N_value, Re_desired, max_thickness, max_camber, CLCD_tolerance, desired_CLCD, **kwargs):
-    filename = 'airfoils_test.csv'#'airfoils.csv'
+    filename = 'airfoils.csv'
 
     if not CLCD_tolerance:#If tolerance was not specified it sets a default tolerance of 5%
         CLCD_tolerance =0.05
