@@ -58,7 +58,7 @@ def outputWindow(col_lst,lst):
     root.mainloop()
     
 fields = ['Enter the desired CL/CD ratio: ',
-              'Enter the desired tolerance for the CL/CD ratio: [leave black for default tolerance of 5%]: ',
+              'Enter the desired tolerance percentage for the CL/CD ratio: [leave black for default tolerance of 5%]: ',
               'Enter the max camber percentage [leave blank to not filter]: ',
               'Enter the max thickness percentage [leave blank to not filter]: ']
 Re_options = ['50K', '100K', '200K', '500K', '1000K']
@@ -96,7 +96,7 @@ variable2 = tk.StringVar(root)
 variable2.set(N_options[0])
     
 n_dropdown = tk.OptionMenu(row_n,variable2, *N_options)
-n_label = tk.Label(row_n, text='Choose an N value: ')
+n_label = tk.Label(row_n, text='Choose an N_critical value: ')
 n_label.pack(side=tk.LEFT)
 n_dropdown.pack(side=tk.RIGHT)
     
