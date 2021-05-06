@@ -1,0 +1,8 @@
+Instructions for using the Airfoil Selection Tool:
+
+1. Download the project from Git
+2. In the Anaconda Prompt, navigate to the "airfoil_scraper" folder in the project (the airfoil_scraper folder in the Final_Project folder)
+3. Type the following into the Anaconda Prompt "scrapy crawl airfoil -o airfoils.csv". The webcrawler will start running and save data to a 
+	csv file called "airfoils".
+4. Open and run the python file called "widget_app"
+5. Use the window that appears to search through the airfoils based on your specific criteria. 
